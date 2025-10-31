@@ -1,3 +1,5 @@
+#TODO: stretch - refactor to use pandas to read csv file, iterrows
+
 with open("nato_phonetic_alphabet.csv") as nato_phonetic_alphabet_file:
     nato_phonetic_alphabet = nato_phonetic_alphabet_file.read().split("\n")
 
